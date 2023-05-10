@@ -1,2 +1,2 @@
-# 03_Simon-Game
+# Simon-Game
 This is a simon-game project
