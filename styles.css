@@ -7,14 +7,20 @@ body {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
   margin:  5%;
-  color: #FEF2BF;
+  animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  30% { color: red; }
+  0% {color: green;}
+  70% {color: yellow;}
+  100% {color: blue;}
 }
 
 .container {
   display: block;
   width: 50%;
   margin: auto;
-
 }
 
 .btn {
