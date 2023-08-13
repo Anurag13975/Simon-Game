@@ -11,6 +11,16 @@ $(document).keypress(function () {
   }
 });
 
+$(document).click(function(event) {
+  if (!event.target.classList.contains('btn')) 
+  {
+    if (!started) 
+    {
+      nextSequence();
+      started = true;
+    }
+  }
+});
 
 $(".btn").on("click", function () {
   var userChosenColour = this.id;
